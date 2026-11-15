@@ -1,0 +1,91 @@
+/* Primary Retextured Classic Development Stylesheet */
+/*stylelint-disable*/
+
+body {
+  background-color: white;
+  color: black;
+  font-family: 'Verdana', sans-serif;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue
+}
+
+a:active {
+  color: red
+}
+
+
+.Navigation a:link {
+  color: white;
+}
+
+.Navigation a:visited {
+  color: white
+}
+
+.Navigation a:active {
+  color: red
+}
+
+blockquote {
+background: rgb(230,230,230);
+padding: 1px 15px;
+border: 1px solid blue;
+border-width: 1px 1px 1px 5px;
+}
+
+.browseTable {
+  border-collapse: collapse;
+  margin-bottom: 0px;
+  background-color:white;
+  border-color:#CCCCCC;
+  border-width:1px;
+  border-style:solid;
+}
+
+.browseHeader {
+  background-color: #6e99c9;
+  color: white;
+}
+
+.profileDiv {
+  width: 100%;
+  height: 100%;
+  background-color: lightsteelblue;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+
+}
+
+.profileDesc {
+  font-size: 9pt;
+}
+
+select:disabled
+{
+	display: none
+}
+
+.EastereggLink {
+  /*visibility: hidden*/
+  color: transparent
+}
+
+.fakeLink {
+  color: blue;
+  text-decoration: underline;
+  display: inline;
+}
